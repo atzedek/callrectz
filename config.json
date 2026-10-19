@@ -1,7 +1,7 @@
 {
   "proPurchaseEnabled": true,
-  "checkoutUrl": "",
-  "customerPortalUrl": "",
+  "checkoutUrl": "https://callrectz.lemonsqueezy.com/checkout/buy/7ec03121-a0e0-4225-bcc1-1c731af4b04a",
+  "customerPortalUrl": "https://callrectz.lemonsqueezy.com/billing",
   "licenseRecheckDays": 7,
   "offlineGraceDays": 21,
   "earlyAdopterCoupon": ""
