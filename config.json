@@ -1,0 +1,8 @@
+{
+  "proPurchaseEnabled": true,
+  "checkoutUrl": "",
+  "customerPortalUrl": "",
+  "licenseRecheckDays": 7,
+  "offlineGraceDays": 21,
+  "earlyAdopterCoupon": ""
+}

@@ -1,0 +1,28 @@
+:root {
+  --brand: #173C57; --brand-light: #285F83; --bg: #F4F7FB; --card: #FFFFFF;
+  --text: #13212E; --muted: #526579; --line: #E5EDF3; --ok: #17694F;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --brand: #9CC7E6; --brand-light: #7FB2D6; --bg: #0E1820; --card: #15232F; --text: #E6EEF5; --muted: #A3B4C4; --line: #22384A; --ok: #6FD0A8; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+header { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 28px; }
+.logo { font-weight: 800; font-size: 22px; color: var(--brand); text-decoration: none; }
+nav a { color: var(--muted); text-decoration: none; margin-inline-start: 16px; font-size: 14px; }
+nav a:hover, a:hover { text-decoration: underline; }
+h1 { font-size: clamp(28px, 6vw, 40px); line-height: 1.15; margin: 0 0 12px; color: var(--brand); }
+h2 { font-size: 20px; color: var(--brand); margin: 28px 0 8px; }
+p, li { color: var(--text); }
+.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 20px 22px; margin: 16px 0; }
+.plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.price { font-size: 28px; font-weight: 800; color: var(--brand); margin: 4px 0 8px; }
+.price small { font-size: 15px; font-weight: 500; color: var(--muted); }
+ul { padding-inline-start: 20px; margin: 8px 0; }
+a { color: var(--brand-light); }
+.muted { color: var(--muted); font-size: 14px; }
+.he { direction: rtl; text-align: right; border-top: 1px solid var(--line); margin-top: 40px; padding-top: 8px; }
+footer { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 16px; color: var(--muted); font-size: 14px; }
+footer a { color: var(--muted); margin-inline-end: 14px; }
