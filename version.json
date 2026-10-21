@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 21,
-  "latestVersionName": "0.21",
-  "minSupportedVersionCode": 21,
-  "apkUrl": "https://github.com/atzedek/callrectz/releases/download/v0.21/CallRecTz-0.21.apk",
-  "sha256": "f2b3a340d9c9ec963955daf395b9f1f5c2ec89a692a6b81e07ae129d0a852714",
-  "changelogHe": "תיקון חשוב: אחרי עדכון של האפליקציה, ההקלטה יכלה להפסיק בשקט עד שפותחים את האפליקציה. עכשיו האפליקציה מתאוששת לבד מיד אחרי עדכון, ומחליפה מנוע הקלטה ישן שנשאר מגרסה קודמת. מומלץ לעדכן."
+  "latestVersionCode": 22,
+  "latestVersionName": "0.22",
+  "minSupportedVersionCode": 22,
+  "apkUrl": "https://github.com/atzedek/callrectz/releases/download/v0.22/CallRecTz-0.22.apk",
+  "sha256": "860380e09e4bec1c02e5e9226d09e4ac1846f862dd54485b309e6b2a2ae0cdf8",
+  "changelogHe": "פרימיום זמין עכשיו לרכישה: 32 ₪ לשנה, בתשלום מאובטח דרך Grow. כולל הקלטת שיחות WhatsApp, פורמטים MP3 ו־OGG והחרגות. אחרי התשלום מפתח הרישיון נשלח במייל, ומדביקים אותו בהגדרות, פרימיום."
 }
